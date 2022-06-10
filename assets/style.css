@@ -25,7 +25,7 @@ nav img{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center ;
-    padding: 10% ;
+    padding: 15% 10%;
     
 }
 
@@ -113,12 +113,20 @@ nav img{
       }
       #Home{
           height: auto;
+          
       }
   }
   @media screen and (max-width:350px) {
     #Home button,nav a,.navbar-brand,footer,.Enjoy button,#News button,#Contacts button{
         font-size: 60%;
     }
+    #Home{
+        padding-top: 25%;
+    }
+    #Home h1,  #Home h5{
+       font-size: 60%;
+    }
+
 }
 
 @media screen and (max-width:300px) {
