@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    z-index: 100;
+    height: 9%;
+    background-color: rgb(22, 22, 22);
+}
+
+nav img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+#Home{
+    position: relative;
+    width: 100%;
+    background-image:linear-gradient(rgba(18, 18, 19, 0.5), rgba(19, 19, 17, 0.5)),
+    url("../images/food.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    background-position: center ;
+    padding:  15% ;
+    
+}
+
+.Enjoy{
+   height: 50vh;
+   padding: 10%;
+}
+
+
+#Menu{
+    padding: 5% 0;
+    background-color: black;
+    color: white;
+}
+
+#Menu .line{
+    background-color: rgb(240, 158, 7);
+    height: 5px;
+    margin: 2% auto;
+    width: 15%;
+    border-radius: 15px;
+}
+
+
+#Menu img{
+    border-radius: 50%;
+    float: left;
+    width: 120px;
+    height: 120px;
+    margin-right: 10%;
+}
+
+#Menu p{
+    font-size: 70%;
+}
+
+#News{
+    background-image:linear-gradient(rgba(18, 18, 19, 0.4), rgba(19, 19, 17, 0.4)),
+    url("https://media.istockphoto.com/photos/table-top-view-of-spicy-food-picture-id1316145932?b=1&k=20&m=1316145932&s=170667a&w=0&h=feyrNSTglzksHoEDSsnrG47UoY_XX4PtayUPpSMunQI=");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    padding: 10% 0;
+    text-align: center;
+    color: white;
+}
+
+#News button{
+    border: orange 1px solid;
+    color: orange;
+    font-size: 100%;
+}
+
+#Contacts{
+    padding: 5% 0;
+}
+
+#Contacts input,#Contacts textarea{
+    background-color: transparent;
+    color: white;
+    padding: 1% 2%;
+    border: 2px solid;
+
+}
+
+#Contacts input::placeholder,#Contacts textarea::placeholder{
+    color: white;
+    }
+
+    #Contacts button{
+        border: orange  solid;
+    }
+    #Contacts P{
+        text-align: justify;
+    }
+
+    footer{
+        padding: 1% 0;
+        background-color: rgb(20, 19, 19);
+        color: white;
+    }
+
+  @media screen and (max-width:500px) {
+      #Home button, #News button,footer,.navbar-brand{
+          font-size: 80%;
+      }
+      #Home{
+          height: 60vh;
+      }
+  }
+  @media screen and (max-width:350px) {
+    #Home button,nav a,.navbar-brand,footer,.Enjoy button,#News button,#Contacts button{
+        font-size: 60%;
+    }
+}
+
+@media screen and (max-width:300px) {
+    #Home button,nav a,.navbar-brand{
+        font-size: 45%;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    #Menu img{
+        width: 80px;
+        height: 80px;
+        margin-right: 5%;
+    }
+}
+
+@media screen and (max-width:450px) {
+    #Menu ,#Menu h4 {
+       font-size: 100%;
+    }
+    #News h1,  #News h2,  #News button{
+        font-size: 100%;
+
+    }
+}
+@media screen and (max-width:350px) {
+    #Menu,#Menu h4 {
+       font-size: 80%;
+    }
+}
+    
+@media screen and (max-width:768px) {
+    #Contacts, #Contacts h5 {
+       font-size: 80%;
+    }
+}
+    
